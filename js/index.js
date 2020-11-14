@@ -1,5 +1,7 @@
-$(document).ready(function(e) {
-	$("#download").click('submit',(function(e) {
+$(document).ready(function(e)
+{
+    $("#download").click(function(e)
+    {
         e.preventDefault();
 
         //Validations for url
