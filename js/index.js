@@ -93,8 +93,8 @@ const createImg = data => {
   i.src = data.content;
 
   // create info
-  let info = document.createElement('p');
-  info.textContent = "Click the right button on the image and select save image..";
+//   let info = document.createElement('p');
+//   info.textContent = "Click the right button on the image and select save image..";
 
   render.innerHTML = ""; 
   render.appendChild(i);     
