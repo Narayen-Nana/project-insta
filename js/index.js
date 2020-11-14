@@ -53,5 +53,5 @@ $(document).ready(function(e)
             console.log('Check URL again...');
             alert('Check URL again...');
         }
-    }));
+    });
 })
