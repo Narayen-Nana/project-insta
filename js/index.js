@@ -35,7 +35,7 @@ $(document).ready(function(e) {
             $.ajax({
                 type: 'POST',
                 dataType:'json',
-                url: "ind.php",
+                url: "https://nana-insta-downloader.netlify.app/ind.php",
                 data: { url: url},
                 processData: false,
                 contentType: false,
