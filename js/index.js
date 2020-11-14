@@ -78,8 +78,8 @@ const createVideo = data => {
   v.autoplay = true;
 
   // create info
-  let info = document.createElement('p');
-  info.textContent = "Click the right button on video and select save as.";
+//   let info = document.createElement('p');
+//   info.textContent = "Click the right button on video and select save as.";
 
   render.innerHTML = ""; 
   render.appendChild(v);
