@@ -107,6 +107,7 @@ const getMedia = () => {
   render.innerHTML = "<div class='image-placeholder'></div>";
   // get input value
   let url = _('input').value;
+  console.log(url);
   if (url) {
     fetch(url).
     then(r => r.text()).

@@ -1,4 +1,3 @@
-<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -41,46 +40,44 @@
 
     <body style="font-family: Bangers-Regular;">
         <br>
-        <div class="card">
-            <div class="container">
-                <center>
-                    <div class="col-xs-2"></div>
-                    <div class="col-xs-8">
-                        <br>
-                        <h2>Place URL Below</h2>
-                        <br>
-                        <input type="text" id="url" placeholder="Enter URL Here...">
-                        <br>
-                        <br>
-                        <button id="download" class="btn btn-success">Click Here</button>
-                        <br>
-                        <br>
-                    </div>
-                    <div class="col-xs-2"></div>
-                </center>
+        <div id="seracher">
+            <div class="card">
+                <div class="container">
+                    <center>
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-8">
+                            <br>
+                            <h2>Place URL Below</h2>
+                            <br>
+                            <input type="text" id="url" placeholder="Enter URL Here...">
+                            <br>
+                            <br>
+                            <button id="download" class="btn btn-success" onclick="getMedia()">Click Here</button>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-xs-2"></div>
+                    </center>
+                </div>
             </div>
         </div>
+        <br>
+        <br>
+        <div id="img_vid_loader">
+            <div class="image-placeholder"></div>
+        </div>
     </body>
-</html> -->
+</html>
 
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Instagram Downloader | Webdevtrick.com</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
+<!-- <body>
   <main>
     <header class="navbar">
       <input type="text" value="" placeholder="Paste link here...">
-      <button class="search" onclick="getMedia()">Get</button>
+      <button class="search" >Get</button>
     </header>
     <section class="result">
       <div class="image-placeholder"></div>
-      <p> Copy image or video link from Instagram and put it on the field given on the top. </p>
     </section>
   </main>
-  <script src="./js/index.js"></script>
 </body>
-</html>
+</html> -->
