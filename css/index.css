@@ -54,12 +54,12 @@ body {
     }
 } */
 
-/* .result
+.result
 {
     margin: 0 auto;
     padding: 4em 1em;
     max-width: 40em;
-} */
+}
 
 .result video, .result img
 {
@@ -91,7 +91,7 @@ body {
 {
     .result
     {
-        position: absolute;
+        /* position: absolute; */
         top: 4em;
         left: 0;
         right: 0;
