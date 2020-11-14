@@ -39,8 +39,8 @@ $(document).ready(function(e)
                 dataType:'json',
                 url: "https://nana-insta-downloader.netlify.app/ind.php",
                 data: { url: url},
-                processData: false,
-                contentType: false,
+                // processData: false,
+                // contentType: false,
 
                 success: function(data)
                 {
