@@ -35,7 +35,7 @@ $(document).ready(function(e) {
             $.ajax({
                 type: 'POST',
                 dataType:'json',
-                url: "index.php",
+                url: "ind.php",
                 data: { url: url},
                 processData: false,
                 contentType: false,
